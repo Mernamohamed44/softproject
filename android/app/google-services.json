@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646799327350",
+    "project_id": "airline-4ad4f",
+    "storage_bucket": "airline-4ad4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646799327350:android:48a19c145c17915e6fdf57",
+        "android_client_info": {
+          "package_name": "com.example.softproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646799327350-afe5b0gnrg0hlqj12gj06v099vh7hbqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.softproject",
+            "certificate_hash": "1c32bb8bdf86639e3b1e9fd7d7f97d6c72496072"
+          }
+        },
+        {
+          "client_id": "646799327350-f00di64u8idkr4u54j2cm08k9m3e7nuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWrWpArP6wUo6XQe0Nd3Dqg8k0GTJ7kDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646799327350-f00di64u8idkr4u54j2cm08k9m3e7nuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

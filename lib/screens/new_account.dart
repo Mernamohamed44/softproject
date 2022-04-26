@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -106,12 +107,7 @@ class NewAccount extends StatelessWidget {
                   width: 100,
                   child: TextButton(
                     onPressed: () {
-                      context
-                          .read<Authentication>()
-                          .signIn(
-                              email: emailController.text.trim(),
-                              password: passwordController.text.trim())
-                          .then((value) => Navigator.pop(context));
+                      Authentication(emailController.text,passwordController.text).signUp();
                     },
                     child: const Text(
                       'Done',

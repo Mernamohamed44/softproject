@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:softproject/screens/firebase/auth.dart';
@@ -101,12 +102,7 @@ class _LoginState extends State<Login> {
                     ),
                     child: TextButton(
                       onPressed: () {
-                        context
-                            .read<Authentication>()
-                            .signIn(
-                                email: emailController.text.trim(),
-                                password: passwordController.text.trim())
-                            .then((value) => gotoAirlineReservation(context));
+                        Authentication(emailController.text,passwordController.text).signIn();
                       },
                       child: const Text(
                         'Login',
